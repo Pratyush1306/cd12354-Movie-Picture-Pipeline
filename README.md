@@ -1,4 +1,4 @@
-<img width="2047" height="1026" alt="image" src="https://github.com/user-attachments/assets/03dc720b-f219-4cd2-addc-1c000e2b1e1d" /># Movie Picture Pipeline
+## Movie Picture Pipeline
 
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
 
@@ -11,16 +11,16 @@ In the `starter` folder, you'll find 2 folders, one named `frontend` and one nam
 
 ## Deliverables
 ## Screenshots
-1. Frontend CI
-2. Backend CI
-3. Frontend CD
-4. Backend CD
-5. Frontend
-6. Backend
-7. AWS_ECR
-8. Docker Containers
+1. Frontend CI <img width="2047" height="1026" alt="image" src="https://github.com/user-attachments/assets/03dc720b-f219-4cd2-addc-1c000e2b1e1d" />#
+2. Backend CI <img width="2048" height="1039" alt="image" src="https://github.com/user-attachments/assets/9d54ab2c-5105-4dad-b31b-fdccadf02709" />
+3. Frontend CD <img width="2048" height="1044" alt="image" src="https://github.com/user-attachments/assets/3914631e-7274-4e60-a5c8-e9325f47c1fa" />
+4. Backend CD <img width="2048" height="1050" alt="image" src="https://github.com/user-attachments/assets/d8a00033-3eb8-4f2d-856c-680eb7836145" />
+5. Frontend <img width="2047" height="1115" alt="image" src="https://github.com/user-attachments/assets/f7fc9e00-7f50-46d0-a8d7-046608e583ae" />
+6. Backend <img width="2048" height="1111" alt="image" src="https://github.com/user-attachments/assets/30ef14da-5c49-40af-8d63-9f6df1efbcc0" />
+7. AWS_ECR <img width="2048" height="1111" alt="image" src="https://github.com/user-attachments/assets/565eabf4-e354-4285-843c-8ef967ef2d4e" />
+8. Docker Containers <img width="2048" height="1304" alt="image" src="https://github.com/user-attachments/assets/981e3164-28dd-459a-89eb-884eb078a383" />
 
-##URL'S
+## URL'S
 1. Frontend: http://a62145254841643aa8b827d3a7b34143-2014113153.us-east-1.elb.amazonaws.com
 2. Backend API: http://a47870048c77e4e5e881a9dc86d9ac54-571578424.us-east-1.elb.amazonaws.com/movies
 
