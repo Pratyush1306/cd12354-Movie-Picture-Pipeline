@@ -11,7 +11,7 @@ In the `starter` folder, you'll find 2 folders, one named `frontend` and one nam
 
 ## Deliverables
 ## Screenshots
-1. Frontend CI <img width="2047" height="1026" alt="image" src="https://github.com/user-attachments/assets/03dc720b-f219-4cd2-addc-1c000e2b1e1d" />#
+1. Frontend CI <img width="1960" height="998" alt="image" src="https://github.com/user-attachments/assets/2f153e21-21e8-41db-ba14-3d266c342767" />
 2. Backend CI <img width="2048" height="1039" alt="image" src="https://github.com/user-attachments/assets/9d54ab2c-5105-4dad-b31b-fdccadf02709" />
 3. Frontend CD <img width="2048" height="1044" alt="image" src="https://github.com/user-attachments/assets/3914631e-7274-4e60-a5c8-e9325f47c1fa" />
 4. Backend CD <img width="2048" height="1050" alt="image" src="https://github.com/user-attachments/assets/d8a00033-3eb8-4f2d-856c-680eb7836145" />
