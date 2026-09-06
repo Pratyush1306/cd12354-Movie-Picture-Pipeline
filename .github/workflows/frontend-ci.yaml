@@ -31,11 +31,11 @@ jobs:
           node-version: '18.14.2'
 
       - name: Install dependencies
-        working-directory: frontend
+        working-directory: starter/frontend
         run: npm ci
 
       - name: Run ESLint
-        working-directory: frontend
+        working-directory: starter/frontend
         run: npm run lint
 
   test:
@@ -59,11 +59,11 @@ jobs:
           node-version: '18.14.2'
 
       - name: Install dependencies
-        working-directory: frontend
+        working-directory: starter/frontend
         run: npm ci
 
       - name: Run tests
-        working-directory: frontend
+        working-directory: starter/frontend
         run: npm test -- --watchAll=false
 
   build:
@@ -90,7 +90,7 @@ jobs:
           node-version: '18.14.2'
 
       - name: Install dependencies
-        working-directory: frontend
+        working-directory: starter/frontend
         run: npm ci
 
       - name: Build Docker image
