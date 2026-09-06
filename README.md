@@ -1,4 +1,4 @@
-# Movie Picture Pipeline
+<img width="2047" height="1026" alt="image" src="https://github.com/user-attachments/assets/03dc720b-f219-4cd2-addc-1c000e2b1e1d" /># Movie Picture Pipeline
 
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
 
@@ -10,6 +10,19 @@ The team's project is comprised of 2 application.
 In the `starter` folder, you'll find 2 folders, one named `frontend` and one named `backend`, where each application's source code is maintained. Your job is to use the team's [existing documentation](#frontend-development-notes) and create CI/CD pipelines to meet the teams' needs.
 
 ## Deliverables
+## Screenshots
+1. Frontend CI
+2. Backend CI
+3. Frontend CD
+4. Backend CD
+5. Frontend
+6. Backend
+7. AWS_ECR
+8. Docker Containers
+
+##URL'S
+1. Frontend: http://a62145254841643aa8b827d3a7b34143-2014113153.us-east-1.elb.amazonaws.com
+2. Backend API: http://a47870048c77e4e5e881a9dc86d9ac54-571578424.us-east-1.elb.amazonaws.com/movies
 
 ### Frontend
 
