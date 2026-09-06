@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'backend/**'
+      - 'starter/backend/**'
       - '.github/workflows/backend-ci.yaml'
   workflow_dispatch:
 
@@ -21,7 +21,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-backend-${{ hashFiles('backend/Pipfile.lock') }}
+          key: ${{ runner.os }}-backend-${{ hashFiles('starter/backend/Pipfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-backend-
 
@@ -52,7 +52,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-backend-${{ hashFiles('backend/Pipfile.lock') }}
+          key: ${{ runner.os }}-backend-${{ hashFiles('starter/backend/Pipfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-backend-
 
