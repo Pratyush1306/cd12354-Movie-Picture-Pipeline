@@ -34,11 +34,11 @@ jobs:
         run: pip install pipenv
 
       - name: Install dependencies
-        working-directory: backend
+        working-directory: starter/backend
         run: pipenv install --dev --deploy
 
       - name: Run lint
-        working-directory: backend
+        working-directory: starter/backend
         run: pipenv run lint
 
   test:
@@ -65,11 +65,11 @@ jobs:
         run: pip install pipenv
 
       - name: Install dependencies
-        working-directory: backend
+        working-directory: starter/backend
         run: pipenv install --dev --deploy
 
       - name: Run tests
-        working-directory: backend
+        working-directory: starter/backend
         run: pipenv run test
 
   build:
@@ -94,7 +94,7 @@ jobs:
         uses: aws-actions/amazon-ecr-login@v2
 
       - name: Build and push Docker image
-        working-directory: backend
+        working-directory: starter/backend
         env:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           REPOSITORY: ${{ secrets.BACKEND_ECR_REPOSITORY }}
